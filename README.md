@@ -12,7 +12,7 @@ Using these libraries, we build `app`, a C++ binary that prints `"A B"` using fu
 
 ### Extra Configuration
 
-Since `test-lib-a` does not use Buckaroo, we need to tell Buck where to find it manually. This is done using an entry in `.buckconfig`:
+Since `test-lib-a` is not imported using Buckaroo, we need to tell Buck where to find it manually. This is done using an entry in `.buckconfig`:
 
 ```
 [repositories]
