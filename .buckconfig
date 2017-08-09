@@ -1,0 +1,5 @@
+[project]
+  ignore = .git
+
+[repositories]
+  test-lib-a = external/test-lib-a

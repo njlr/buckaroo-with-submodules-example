@@ -1,0 +1,21 @@
+{
+  "github+njlr/test-lib-b": {
+    "source": {
+      "url": "https://github.com/njlr/test-lib-b/archive/11ad7ec39d9a4d2943a08ea5a196478860b3cb80.zip",
+      "sha256": "75b56fe3718b82dbc16064556932fb8861faaf6ec1ea759692edd740275fb287",
+      "subPath": "/test-lib-b-11ad7ec39d9a4d2943a08ea5a196478860b3cb80"
+    },
+    "target": "b",
+    "dependencies": [
+      "github.njlr.test-lib-c//:c"
+    ]
+  },
+  "github+njlr/test-lib-c": {
+    "source": {
+      "url": "https://github.com/njlr/test-lib-c/archive/3e38284d373a051e049242d5b2184ab16bb1188b.zip",
+      "sha256": "c30038de6124a613282f7456c58f24b370f694172f95a4c273e95714ec65070a",
+      "subPath": "/test-lib-c-3e38284d373a051e049242d5b2184ab16bb1188b"
+    },
+    "target": "c"
+  }
+}

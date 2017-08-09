@@ -1,0 +1,3 @@
+[submodule "external/test-lib-a"]
+	path = external/test-lib-a
+	url = git@github.com:njlr/test-lib-a.git

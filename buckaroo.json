@@ -1,0 +1,6 @@
+{
+  "name": "buckaroo-with-submodules-example",
+  "dependencies": {
+    "github+njlr/test-lib-b": "0.1.0"
+  }
+}
